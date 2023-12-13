@@ -21,7 +21,11 @@
 
 function partir(arreglo, cantidad){
 	// Tu codigo aqui:
-
+	const resultado = [];
+	for (let i = 0; i < arreglo.length; i += cantidad) {
+		resultado.push(arreglo.slice(i, i + cantidad));
+	}
+	return resultado;
 }
 
 

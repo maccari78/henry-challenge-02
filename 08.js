@@ -21,5 +21,11 @@
 
 function buscandoAWally(personajes){
 	// Tu codigo aqui:
+	const indiceWally = personajes.indexOf('Wally');
 
+	if (indiceWally !== -1) {
+		return `He encontrado a Wally en la posición ${indiceWally}`;
+	} else {
+		return 'Wally no está en la lista';
+	}
 }

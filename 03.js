@@ -21,6 +21,28 @@
 // No modifiques nada por fuera del cuerpo de esta función
 
 class alumno{
-// Tu codigo aqui:
+    // Tu codigo aqui:
+    constructor(nombre, apellido, cohorte, grupoDeAmigos, notasDeCheckpoints) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.cohorte = cohorte;
+        this.grupoDeAmigos = grupoDeAmigos || []; // Inicializa como un arreglo vacío si no se proporciona
+        this.notasDeCheckpoints = notasDeCheckpoints || []; // Inicializa como un arreglo vacío si no se proporciona
+    }
 
+    countAmigos() {
+        return this.grupoDeAmigos.length;
+    }
+
+    addAmigo(amigo) {
+        this.grupoDeAmigos.push(amigo);
+    }
+
+    getNotas() {
+        return this.notasDeCheckpoints;
+    }
+
+    addNota(nuevaNota) {
+        this.notasDeCheckpoints.push(nuevaNota);
+    }
 }

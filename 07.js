@@ -22,5 +22,11 @@
 
 function doble(array){
 	// Tu codigo aqui:
+	const resultado = [];
 
+	for (let i = 0; i < array.length; i++) {
+		resultado.push(array[i] * 2);
+	}
+
+	return resultado;
 }

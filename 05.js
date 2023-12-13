@@ -19,8 +19,31 @@
 // STRING ‘ingrediente’
 // No modifiques nada por fuera del cuerpo de la función
 
-function ingredienteEnMalEstado(meno, comida, ingrediente){
+function ingredienteEnMalEstado(menu, comida, ingrediente){
 	// Tu codigo aqui:
+	if (menu.hasOwnProperty(comida)) {
+		const ingredientes = menu[comida];
+		const indiceIngrediente = ingredientes.indexOf(ingrediente);
+	
+	if (indiceIngrediente !== -1) {
+		const resultado = [];
+		// Agregar el ingrediente en mal estado
+		resultado.push(ingrediente);
 
+		// Agregar los dos elementos más cercanos
+		if (indiceIngrediente > 0) {
+		resultado.push(ingredientes[indiceIngrediente - 1]);
+		}
+		if (indiceIngrediente < ingredientes.length - 1) {
+		resultado.push(ingredientes[indiceIngrediente + 1]);
+		}
+
+		return resultado;
+	} else {
+		return 'El menu está perfecto';
+	}
+	} else {
+		return 'La comida no está en el menú';
+	}
 }
 

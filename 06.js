@@ -19,4 +19,20 @@
 
 function divisores(numero){
 	// Tu codigo aqui:
+	if (numero <= 1) {
+		return 'Es primo';
+	}
+
+	const divisoresEncontrados = [];
+	for (let i = 2; i <= Math.sqrt(numero); i++) {
+		if (numero % i === 0) {
+			divisoresEncontrados.push(i);
+			if (i !== numero / i) {
+				divisoresEncontrados.push(numero / i);
+			}
+		}
+	}
+
+	return divisoresEncontrados.length > 0 ? divisoresEncontrados : 'Es primo';
+	
 }

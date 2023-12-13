@@ -22,5 +22,10 @@
 
 function agregaPropiedad(amigos, propiedad){
 	// Tu codigo aqui:
-
+	for (let i = 0; i < amigos.length; i++) {
+		if (!amigos[i].hasOwnProperty(propiedad)) {
+			amigos[i][propiedad] = null;
+		}
+	}
+	return amigos;
 }

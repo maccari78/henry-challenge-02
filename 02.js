@@ -20,5 +20,22 @@
 
 function sumaTodosPrimos(numeros){
 	// Tu codigo aqui:
+	// Función para verificar si un número es primo
+	function esPrimo(numero) {
+		if (numero <= 1) return false;
+		for (let i = 2; i <= Math.sqrt(numero); i++) {
+		  if (numero % i === 0) return false;
+		}
+		return true;
+	}
 
+	// Sumar números primos en el arreglo
+	let sumaPrimos = 0;
+		for (let i = 0; i < numeros.length; i++) {
+			if (esPrimo(numeros[i])) {
+				sumaPrimos += numeros[i];
+			}
+		}
+
+	return sumaPrimos;
 }
