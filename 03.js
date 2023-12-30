@@ -1,6 +1,3 @@
-// HenryChallenge - HackerRank
-// https://www.youtube.com/watch?v=vYPLwOuz9DM&ab_channel=ederEngine
-
 // 3. Clase alumno
 // Para este ejercicio deberás definir una clase alumno con sus parametros y metodos
 // Las propiedades de la clase alumno son:
@@ -46,3 +43,6 @@ class alumno{
         this.notasDeCheckpoints.push(nuevaNota);
     }
 }
+
+// HenryChallenge - HackerRank
+// https://www.youtube.com/watch?v=vYPLwOuz9DM&ab_channel=ederEngine

@@ -1,6 +1,3 @@
-// HenryChallenge - HackerRank
-// https://www.youtube.com/watch?v=vYPLwOuz9DM&ab_channel=ederEngine
-
 // 8. Buscando a Wally
 // Como en los clásicos y coloridos libros de nuestra infancia hoy necesitamos encontrar a Wally entre muchos otros personajes.
 // Deberás escribir una función que encuentre el string ‘Wally’ dentro de un arreglo y retorna el string ‘He encontrado a Wally en la posición X’ donde X sea el índice del arreglo que ocupa Wally
@@ -29,3 +26,7 @@ function buscandoAWally(personajes){
 		return 'Wally no está en la lista';
 	}
 }
+
+// HenryChallenge - HackerRank
+// https://www.youtube.com/watch?v=vYPLwOuz9DM&ab_channel=ederEngine
+

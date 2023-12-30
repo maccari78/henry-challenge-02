@@ -1,6 +1,3 @@
-// HenryChallenge - HackerRank
-// https://www.youtube.com/watch?v=vYPLwOuz9DM&ab_channel=ederEngine
-
 // 7. Doble
 // Para este ejercicio deberás escribir una función que te permita calcular el doble de muchos números a la vez
 // La función recibirá un arreglo de enteros y retorna un nuevo arreglo de enteros donde cada elemento es el doble de uno de los elementos del arreglo original
@@ -30,3 +27,8 @@ function doble(array){
 
 	return resultado;
 }
+
+// HenryChallenge - HackerRank
+// https://www.youtube.com/watch?v=vYPLwOuz9DM&ab_channel=ederEngine
+
+

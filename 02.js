@@ -1,6 +1,3 @@
-// HenryChallenge - HackerRank
-// https://www.youtube.com/watch?v=vYPLwOuz9DM&ab_channel=ederEngine
-
 // 2. Sumar primos
 // Escribe una función que reciba un arreglo de enteros, sume todos los numeros primos que allí se encuentren y retorne el resultado de la suma
 // Ejemplo:
@@ -39,3 +36,8 @@ function sumaTodosPrimos(numeros){
 
 	return sumaPrimos;
 }
+
+// HenryChallenge - HackerRank
+// https://www.youtube.com/watch?v=vYPLwOuz9DM&ab_channel=ederEngine
+
+

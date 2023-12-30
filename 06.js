@@ -1,6 +1,3 @@
-// HenryChallenge - HackerRank
-// https://www.youtube.com/watch?v=vYPLwOuz9DM&ab_channel=ederEngine
-
 // 6. Divisores
 // Deberás escribir una función que reciba un numero y nos retorna un arreglo con los divisores del número recibido, en caso de que el número no tenga divisores (exceptuando el 1 y el mismo número) debería retornar ‘Es primo’
 // Ejemplo:
@@ -36,3 +33,7 @@ function divisores(numero){
 	return divisoresEncontrados.length > 0 ? divisoresEncontrados : 'Es primo';
 	
 }
+
+// HenryChallenge - HackerRank
+// https://www.youtube.com/watch?v=vYPLwOuz9DM&ab_channel=ederEngine
+

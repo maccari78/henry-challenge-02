@@ -1,6 +1,3 @@
-// HenryChallenge - HackerRank
-// https://www.youtube.com/watch?v=vYPLwOuz9DM&ab_channel=ederEngine
-
 // 1. En partes
 // Escribe una función que permita dividir un arreglo de enteros en varias partes de manera que cada parte tenga como máximo una cantidad definida de elementos recibida por parámetro
 
@@ -27,6 +24,10 @@ function partir(arreglo, cantidad){
 	}
 	return resultado;
 }
+
+// HenryChallenge - HackerRank
+// https://www.youtube.com/watch?v=vYPLwOuz9DM&ab_channel=ederEngine
+
 
 
 
